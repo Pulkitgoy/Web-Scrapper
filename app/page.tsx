@@ -32,7 +32,7 @@ const Home = () => {
         <h2 className='section-text'>Trending Products</h2>
         <div className='flex flex-wrap gap-x-8 gap-y-16'>
           {['Apple Iphone', 'Book' , 'headPhone'].map((prod)=>{
-            return <div>{prod}</div>
+            return <div key={prod}>{prod}</div>
           })}
         </div>
       </section>

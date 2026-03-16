@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link href='/' className="flex items-center gap-1">
                 <Image src="/assets/icons/logo.svg" alt="logo" width={27} height={27}/>
                 <p className="nav-logo">
-                    Wise<scan className='text-primary'>Buy</scan>
+                    Wise<span className='text-primary'>Buy</span>
                 </p>
             </Link> 
 
